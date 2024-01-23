@@ -19,7 +19,7 @@ Some of the key features that this application provides to users include...
 
 ## Installation and Setup
 
-In order to setup the development environment to run this project, the user must have a SQL database server downloaded onto thier machine (preferably a MySQL server). The user must also have an IDE (integrated development environment) installed for Java and Javascript (this project utilizes IntelliJ Idea for the backend development and VsCode for the frontend). 
+In order to setup the development environment to run this project, the user must have a SQL database server downloaded onto thier machine (preferably a MySQL server). The user must also have an IDE (integrated development environment) installed for Java and Javascript (this project utilizes IntelliJ Idea for the backend development and VsCode for the frontend). Additionally, the user must also have Node.js and npm currently installed on thier machine.
 
 #### Backend Setup
 The first step is to create a Spring Boot Project using https://start.spring.io/ with the proper dependencies added to the project as well. Refer to the image below for the list of dependenies that should be added while creating the project. The website does not allow for adding the `jjwt` dependency and so that will have to be added later to the `pom.xml` file. The file in `fitnesstracker/Backend/pom.xml` of this repository contains the dependency block for `jjwt` and can be copied into the user's pom.xml file. 
@@ -28,4 +28,12 @@ The first step is to create a Spring Boot Project using https://start.spring.io/
 
 Once the project is dowloaded, the user can open up the project in thier IDE. Next, under the `com.project.{your project name}` folder in the project, the user can create the configuration, controller, models, repositories, service, and user detail folders. Next the user can populate those folders with thier respective files as shown in `fitnesstracker/Backend/`. 
 
-Next, in the application.properties folder of thier project, the user can copy and paste the contents in the `fitnesstracker/Backend/application.properties` file. The user must create a new database in thier SQL server and insert the appropriate name, server name, and server password. 
+Next, in the application.properties folder of thier project, the user can copy and paste the contents in the `fitnesstracker/Backend/application.properties` file. The user must create a new database in thier SQL server and insert the appropriate database name, server name, and server password. 
+
+### Frontend Setup
+The first step is to open up VsCode and open a new terminal (assuming Node.js and npm are already installed). Inside the integrate terminal, the user should type `npx create-react-app my-app` where `my-app` is the name they wish to give to the project. Once the project is created, the user should open it up in VsCode and navigate to the `src` folder. Inside that folder, the user should add the files inside `fitnesstracker/Frontend/Javascript Files/` and `fitnesstracker/Frontend/CSS Files/`. Note that the premade index.js and App.js files should be replaced with the ones in the github repository folder. 
+
+<img width="224" alt="Screenshot 2024-01-23 at 12 44 50 PM" src="https://github.com/harshp425/fitnesstracker/assets/126726290/68125d60-3cc3-4465-8bd1-e48c13ec93e5">
+
+
+
