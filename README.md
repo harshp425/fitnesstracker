@@ -45,12 +45,49 @@ Once the files are properly set up, the user must run the backend main file to i
 
 Upon initiation, the user will see the screen below...
 
+<img width="1470" alt="Screenshot 2024-01-22 at 1 57 37 PM" src="https://github.com/harshp425/fitnesstracker/assets/126726290/6b372d1f-2cb0-40c9-afa7-f11f4700f4e9">
+
 The user can then navigate to the registration page by clicking the Sign Up link in the bottom of the login box. 
+
+<img width="1469" alt="Screenshot 2024-01-22 at 1 57 54 PM" src="https://github.com/harshp425/fitnesstracker/assets/126726290/4ce24eff-1eea-41fb-94c6-829d41c2b7a1">
 
 
 After filling out thier registration information and submitting the form, the user will then be redirected to the login page where they can then proceed to enter thier credentials.
 
-If the user authentication is not successful, the the screen will display and error message and if the credentials are accurate, the user will then be redirected to the dashboard.
+<img width="1470" alt="Screenshot 2024-01-23 at 6 20 44 PM" src="https://github.com/harshp425/fitnesstracker/assets/126726290/7610980d-4169-4953-a41c-e9c2f9414330">
+
+
+If the user authentication is not successful, the the screen will display an error message and if the credentials are accurate, the user will then be redirected to the dashboard.
+
+<img width="1470" alt="Screenshot 2024-01-23 at 6 22 05 PM" src="https://github.com/harshp425/fitnesstracker/assets/126726290/dbb00b2a-e5f0-4ae8-9827-386c6879b9be">
+
+
+On the dashboard, the user will be able to add and delete thier personal records and goals.
+
+<img width="1470" alt="Screenshot 2024-01-22 at 2 59 49 PM" src="https://github.com/harshp425/fitnesstracker/assets/126726290/5d38a153-ed9b-4b93-9d32-41ff8bf8623e">
+
+On the `Log Entry` tab, the user can input workout data for strength and endurance based workouts.
+
+<img width="1470" alt="Screenshot 2024-01-22 at 3 00 31 PM" src="https://github.com/harshp425/fitnesstracker/assets/126726290/d7dccce2-9c05-4a57-8503-6ef572c4abba">
+
+
+On the `Strength Data` tab, the user can input any of the strength exercises they have logged and it will display all of the logged entries for the exercise, along with progression charts displaying various metrics. 
+
+<img width="1470" alt="Screenshot 2024-01-22 at 3 02 39 PM" src="https://github.com/harshp425/fitnesstracker/assets/126726290/63b6acbc-fc89-4763-a87c-c13cd0f56291">
+
+
+<img width="1470" alt="Screenshot 2024-01-22 at 3 03 02 PM" src="https://github.com/harshp425/fitnesstracker/assets/126726290/5916658f-b262-4299-821c-45ff1665619c">
+
+
+On the `Endurance Data` tab, the user can input any of the endurance/cardio exercises they have logged and it will display all of the logged entries for the exercise, along with progression charts displaying various metrics. 
+
+
+<img width="1470" alt="Screenshot 2024-01-22 at 3 03 26 PM" src="https://github.com/harshp425/fitnesstracker/assets/126726290/3ce78836-4049-4e6b-860b-4c455e3879cb">
+
+<img width="1470" alt="Screenshot 2024-01-22 at 3 03 47 PM" src="https://github.com/harshp425/fitnesstracker/assets/126726290/6ca3e6d1-17bd-4323-87e3-5026c9ac409a">
+
+
+Pressing the `Logout` button will log the user out of thier session and redirect them back to the login page. 
 
 
 
