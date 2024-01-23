@@ -1,0 +1,23 @@
+.strenghtentryformbox {
+
+    width: 83%; 
+    border-radius: 15px; 
+    box-shadow: 5px 5px 9px 5px rgba(0,0,0,0.1); 
+    padding: 20px; 
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+    background-color: rgb(255, 255, 255); 
+    margin-left: 245px;
+}
+
+
+.customheaderbox {
+    width: 100%; /* Full width */
+    border-radius: 15px;
+    box-shadow: 5px 5px 9px 5px rgba(0,0,0,0.1); 
+    padding: 5px; 
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255); 
+}

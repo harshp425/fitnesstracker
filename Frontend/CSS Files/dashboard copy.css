@@ -1,0 +1,75 @@
+.container-fluid .nav-item:hover {
+    background-color: #f0f0f0; 
+    border-radius: 8px;
+}
+
+.container-fluid .nav-item {
+    display: block;
+    padding: 5px 30px; 
+    color: inherit;
+    width: 100%
+}
+
+.nav-link button{
+    margin-left: -20px;
+}
+
+.custom-class {
+    margin-left: 10px;
+}
+
+.custom-header {
+    margin-left: 0px;
+    margin-bottom: 30px;
+    
+}
+
+.customheaderbox {
+    width: 100%; /* Full width */
+    border-radius: 15px;
+    box-shadow: 5px 5px 9px 5px rgba(0,0,0,0.1); 
+    padding: 5px; 
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255); 
+}
+
+.customheaderbox h1 {
+    margin: 0; 
+}
+
+.personalrecordbox{
+    width: 30%; 
+    border-radius: 15px;
+    box-shadow: 5px 5px 9px 5px rgba(0,0,0,0.1); 
+    padding-top: 18px; 
+    padding-left: 16px;
+    padding-bottom: 5px;
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+    margin-left: 245px;
+    background-color: rgb(255, 255, 255); 
+}
+
+.goalsbox {
+    width: 55%; 
+    border-radius: 15px;
+    box-shadow: 5px 5px 9px 5px rgba(0,0,0,0.1); 
+    padding-top: 18px; 
+    padding-left: 16px;
+    padding-bottom: 5px;
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+    margin-left: 35px;
+    background-color: rgb(255, 255, 255); 
+}
+
+.fixed-sidebar {
+    position: fixed;
+    top: 0; /* Adjust if needed */
+    left: 0; /* Adjust if needed */
+    height: 100vh;
+    overflow-y:scroll;
+    margin-right: 10px;
+}
