@@ -35,7 +35,7 @@ public class personalrecordController {
     @Autowired
     private PersonalrecordSericeImpl personalrecordSerice;
 
-    private String secretKey = "@#HysfIFHk12jkghjghd42358JNFWY437468734FJJHgkJDGKJSkjhkjhvmnbU5345SDFBuemnchKJHUUjkjhkjhKJ2329KB45";
+    private String secretKey = "{Your Key}";
 
     public personalrecordController(Personalrecord_Repository personalrecordRepository,
             PersonalrecordSericeImpl personalrecordSerice) {
