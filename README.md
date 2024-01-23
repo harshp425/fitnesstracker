@@ -37,5 +37,22 @@ The first step is to open up VsCode and open a new terminal (assuming Node.js an
 
 <img width="224" alt="Screenshot 2024-01-23 at 12 44 50 PM" src="https://github.com/harshp425/fitnesstracker/assets/126726290/68125d60-3cc3-4465-8bd1-e48c13ec93e5">
 
+## Running the Project
+
+Once the files are properly set up, the user must run the backend main file to initiate the backend and to establish a connection with the database. In order to initiate the frontend on an instance of local host, the user must open a new terminal in thier VsCode project and type in `npm start`. This command will initiate the React.js frontend and an instance of localhost will appear on the user's screen.
+
+## How to Use
+
+Upon initiation, the user will see the screen below...
+
+The user can then navigate to the registration page by clicking the Sign Up link in the bottom of the login box. 
+
+
+After filling out thier registration information and submitting the form, the user will then be redirected to the login page where they can then proceed to enter thier credentials.
+
+If the user authentication is not successful, the the screen will display and error message and if the credentials are accurate, the user will then be redirected to the dashboard.
+
+
+
 
 
