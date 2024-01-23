@@ -32,7 +32,7 @@ public class StrentryController {
     @Autowired
     private Strentry_Repository strentryRepository;
 
-    private String secretKey = "@#HysfIFHk12jkghjghd42358JNFWY437468734FJJHgkJDGKJSkjhkjhvmnbU5345SDFBuemnchKJHUUjkjhkjhKJ2329KB45";
+    private String secretKey = "{Your Key}";
 
     public StrentryController(Strentry_service strentryService,
             Strentry_Repository strentryRepository) {
