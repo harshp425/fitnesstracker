@@ -29,7 +29,7 @@ public class EnduentryController {
     @Autowired
     private Enduentry_Repository enduentryRepository;
 
-    private String secretKey = "@#HysfIFHk12jkghjghd42358JNFWY437468734FJJHgkJDGKJSkjhkjhvmnbU5345SDFBuemnchKJHUUjkjhkjhKJ2329KB45";
+    private String secretKey = "{Your Key}";
 
     public EnduentryController(Enduentry_Service enduentryService,
             Enduentry_Repository enduentryRepository) {
