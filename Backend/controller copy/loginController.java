@@ -60,7 +60,7 @@ public class loginController {
                 .setSubject(username)
                 .setIssuedAt(new Date(currentTimeMillis))
                 .setExpiration(new Date(currentTimeMillis + 3600000)) // 1 hour expiration
-                .signWith(SignatureAlgorithm.HS512, "@#HysfIFHk12jkghjghd42358JNFWY437468734FJJHgkJDGKJSkjhkjhvmnbU5345SDFBuemnchKJHUUjkjhkjhKJ2329KB45") // Replace "YourSecretKey" with your actual secret key
+                .signWith(SignatureAlgorithm.HS512, "{Your Key}") 
                 .compact();
     }
 
