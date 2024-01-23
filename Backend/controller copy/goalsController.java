@@ -35,7 +35,7 @@ public class goalsController {
     @Autowired
     private GoalServiceImpl goalService;
 
-    private String secretKey = "@#HysfIFHk12jkghjghd42358JNFWY437468734FJJHgkJDGKJSkjhkjhvmnbU5345SDFBuemnchKJHUUjkjhkjhKJ2329KB45";
+    private String secretKey = "{Your Key}";
 
     public goalsController(Goals_Repository goalsRepository, GoalServiceImpl goalService) {
         this.goalsRepository = goalsRepository;
