@@ -90,6 +90,6 @@ On the `Endurance Data` tab, the user can input any of the endurance/cardio exer
 Pressing the `Logout` button will log the user out of thier session and redirect them back to the login page. 
 
 
-
+**Note: The workout data is only for demonstration purposes
 
 
