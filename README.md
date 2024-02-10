@@ -4,7 +4,7 @@ This project is a fullstack interactive fitness tracker web application which pr
 
 ## Technologies Used
 
-The backend for this project is written in Java using the Spring Boot framework. Among other dependencies outlined a later section, the application also uses the Spring Security framework to handle security features, tokens, and user authentication. The database used to store this user and entry data is a MySQL server. The frontend for this project is written in Javascript using React.js. The styling is handles through a combination of BootStrap and custom CSS. Furthermore, the chart visualizations are handled through recharts.js.
+The backend for this project is written in Java using the Spring Boot framework. Among other dependencies outlined in a later section, the application also uses the Spring Security framework to handle security features, tokens, and user authentication. The database used to store this user and entry data is a MySQL server. The frontend for this project is written in Javascript using React.js. The styling is handles through a combination of BootStrap and custom CSS. Furthermore, the chart visualizations are handled through recharts.js.
 
 ## Key Features
 
