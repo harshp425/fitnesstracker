@@ -1,6 +1,6 @@
 # FittApp
 
-This project is a fullstack interactive fitness tracker web application which provides users with an array of workout data logging and analysis features. Users are able to register themselves upon initial use of the application and can then subsequently login with thier set username and password. The application offers a dashboard where users can add and remove thier personal records and fitness goals. They can also log different types of strength and endurance workout data which is then displayed through charts and graphs to visualize progress by select metrics.  
+This project is a fullstack interactive fitness tracker web application which provides users with an array of workout data logging and analysis features. Users are able to register themselves upon initial use of the application and can then subsequently login with their set username and password. The application offers a dashboard where users can add and remove their personal records and fitness goals. They can also log different types of strength and endurance workout data which is then displayed through charts and graphs to visualize progress by select metrics.  
 
 ## Technologies Used
 
